@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Formulário para teste de Front End</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+    <body>
+        <header><h2>Seja bem vindo para começar seu teste!</h2></header>
+
+        <p class="texto"><b>Você poderá realizar o teste desjado, marcar aqui quais tarefas<br>
+        já foram cumpridas. E marcar quais ainda serão cumpridas.</b></p>
+        <br>
+
+        <main> 
+            <section> 
+                <b class="texto2">-Tópicos de testes-</b>                            
+                <br>
+
+                <b>Introdução</b>
+                <label class="cyberpunk-checkbox-label">
+                <input class="cyberpunk-checkbox" type="checkbox">
+                Feito</label> <br>
+
+                <b>Requisitos de Software</b>
+                <label class="cyberpunk-checkbox-label">
+                <input class="cyberpunk-checkbox" type="checkbox">
+                Feito</label> <br>
+
+                <b>Recursos</b>
+                <label class="cyberpunk-checkbox-label">
+                <input class="cyberpunk-checkbox" type="checkbox">
+                Feito</label> <br>
+
+                <b>Escopo</b>
+                <label class="cyberpunk-checkbox-label">
+                <input class="cyberpunk-checkbox" type="checkbox">
+                Feito</label> <br>
+
+                <b>Objetivos e Tarefas</b>
+                <label class="cyberpunk-checkbox-label">
+                <input class="cyberpunk-checkbox" type="checkbox">
+                Feito</label> <br>
+
+                <b>Avaliações</b>
+                <label class="cyberpunk-checkbox-label">
+                <input class="cyberpunk-checkbox" type="checkbox">
+                Feito</label> <br>
+            </section>   
+            
+            <section class="section2">
+
+                <b class="texto2">Site a ser testado:</b> <br>
+                <input class="input" id="texttaref" name="siteNome" placeholder="Nome do Site.."></input>
+                <br>    
+                <button><b>Adicionar</b>
+                </button>
+
+                <br>
+                <b class="texto2">Testes a cumprir:</b>
+                 <ul id="list">
+                 </ul>
+                     <input class="input" id="texttaref" name="texttaref" placeholder="Nome do Teste.."></input>
+                     <br>
+ 
+                     <button onclick="adiciona()"><b>Adicionar Teste</b>
+                     </button>
+            </section>	
+          </main>
+    
+    </body>
+
+</html>
